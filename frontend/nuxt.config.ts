@@ -3,14 +3,12 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: [
     "@nuxtjs/eslint-module",
-    "@nuxtjs/tailwindcss",
     "nuxt-headlessui",
-    "nuxt-icon",
     "@nuxtjs/color-mode",
     "@pinia/nuxt",
     "@vueuse/nuxt",
-    "@nuxt/content",
     "@nuxt/ui",
+    "pinia",
   ],
   app: {
     // транзитион для пагесов мб фиксми лэйтер
