@@ -1,6 +1,11 @@
+<script setup lang="ts">
+function handler(ev: Event) {
+  console.log(ev);
+}
+</script>
+
 <template>
   <div>
-    <NuxtRouteAnnouncer />
-    <NuxtWelcome />
+    <Button label="Check" @click="handler" />
   </div>
 </template>
